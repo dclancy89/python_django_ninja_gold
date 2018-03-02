@@ -1,0 +1,72 @@
+body {
+	background-color: #d0e1ef;
+	font-family: Arial;
+}
+
+.button {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 0;
+	font-size: 1rem;
+	padding: 4px 10px;
+	margin-top: 2rem;
+	text-decoration: none;
+	color: black;
+	
+}
+
+.button:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.container {
+	max-width: 75rem;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.gold {
+	display: block;
+	width: 100%;
+}
+
+span#gold-amount {
+	border: 1px solid black;
+	padding: 5px;
+	width: 125px;
+	display: inline-block;
+}
+
+
+.building-container {
+	text-align: center;
+}
+
+.building {
+	display: inline-block;
+	width: 20%;
+	border: 1px solid black;
+	margin: 1rem;
+	text-align: center;
+	padding: 2rem 0.5rem;
+}
+
+#activities-box {
+	border: 1px solid black;
+	background-color: white;
+	height: 175px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#activities-box span {
+	display: block;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
